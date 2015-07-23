@@ -21,6 +21,7 @@
 #include <stdio.h>
 #include <string.h>
 
+#include "posix_io.h"
 #include "board_uart0.h"
 #include "shell.h"
 #include "board.h"
