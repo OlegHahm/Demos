@@ -126,6 +126,7 @@ int main(void)
 {
     shell_t shell;
     const char *disco_addr = DISCO_ADDR;
+    posix_open(uart0_handler_pid, 0);
 
     port[0] = (uint8_t)DISCO_PORT;
     port[1] = (uint8_t)(DISCO_PORT >> 8);
